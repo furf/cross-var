@@ -21,6 +21,10 @@
 
 ## Overview
 
+🚨 Note: `cross-var-src-patch` exists only to temporarily resolve [an open issue](https://github.com/elijahmanor/cross-var/issues/17) in `cross-var`. `cross-var` fails to execute properly when it is run in a project located somewhere inside a `src` directory. The issue appears to be an overzealous matcher in the babel config. Once this issue is resolved ([potential fix](https://github.com/elijahmanor/cross-var/pull/18)), this package will no longer be necessary and will be deprecated. While this package is called `cross-var-src-patch`, the binary continues to be `cross-var`. As such, the rest of this patch project's documentation will remain intact. Please file only documentation issues. Carry on!
+
+---
+
 When using `npm scripts` it creates a lot of environment variables that are available for you to leverage when executing scripts.
 
 If you'd like to take a look at all of the variables then you can run `npm run env` in your terminal. 

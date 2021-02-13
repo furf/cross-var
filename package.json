@@ -1,6 +1,6 @@
 {
-  "name": "cross-var",
-  "version": "1.1.0",
+  "name": "cross-var-src-patch",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/elijahmanor/cross-var"
+    "url": "https://github.com/furf/cross-var-src-patch"
   },
   "bugs": {
     "url": "https://github.com/elijahmanor/cross-var/issues"

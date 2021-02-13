@@ -2,6 +2,6 @@
 
 require( "babel-register" )( {
     ignore: false,
-    only: /src/
+    only: /cross-var-src-patch\/src/
 } );
 require( "./src/index.js" );
